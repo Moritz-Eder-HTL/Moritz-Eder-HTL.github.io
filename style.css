@@ -32,11 +32,13 @@ nav a:hover {
 
 .intro {
     color: white;
-    font-size: 400%;
+    font-size: 450%;
 }
 
 #introBox {
+    margin-top: 4vw;
     width: 100%;
+    text-align: center;
 }
 
 h1 {
