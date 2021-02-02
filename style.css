@@ -44,12 +44,12 @@ nav a:hover {
 h1 {
     color: rgb(148, 164, 255);
     margin-bottom: -1vw;
-    font-size: 250%;
+    font-size: 350%;
 }
 
 h2 {
     color: white;
-    font-size: 160%;
+    font-size: 200%;
 }
 
 #head {
@@ -94,12 +94,6 @@ button img {
     justify-content: center;
 }
 
-#img1 {
-    visibility: hidden;
-    width: 0px;
-    margin-left: -0.25%;
-}
-
 #img2 {
     visibility: hidden;
     width: 0px;
@@ -137,12 +131,6 @@ button img {
 }
 
 #img8 {
-    visibility: hidden;
-    width: 0px;
-    margin-left: -0.25%;
-}
-
-#img9 {
     visibility: hidden;
     width: 0px;
     margin-left: -0.25%;
