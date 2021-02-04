@@ -11,19 +11,28 @@ body {
 }
 
 nav {
+    display: flex;
     width: 100%;
     box-shadow: 0px 0px 15px rgb(255, 255, 255);
     border: 0.1vw solid white;
     background-color: rgb(148, 164, 255);
-    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 
 nav a{
     font-size: 200%;
-    margin: 0 20vw;
     color: white;
     text-decoration: none;
     transition: 0.5s;
+}
+
+#home {
+    margin-right: 20vw;
+}
+
+#slide {
+    margin-left: 20vw;
 }
 
 nav a:hover {
@@ -136,9 +145,99 @@ button img {
     margin-left: -0.25%;
 }
 
-
-
 .bilder {
     border: 0.1vw solid white;
     width: 100px;
+}
+
+/*Responsive*/
+
+@media screen and (max-width: 1500px) {
+    .intro {
+        font-size: 350%;
+    }
+    #home {
+        margin-right: 10vw;
+    }
+    
+    #slide {
+        margin-left: 10vw;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    #img3, #img7 {
+        visibility: hidden;
+        width: 0vw;
+    }
+    #img4, #img6 {
+        width: 25vw;
+    }
+    #img5 {
+        width: 35vw;
+    }
+    
+    button img {
+        width: 10vw;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    #img4, #img6 {
+        width: 20vw;
+    }
+    #img5 {
+        width: 45vw;
+    }
+    button img {
+        width: 15vw;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .intro {
+        font-size: 250%;
+    }
+
+    #img4, #img6 {
+        width: 0vw;
+        visibility: hidden;
+    }
+    #img5 {
+        width: 70vw;
+    }
+
+    h1 {
+        font-size: 300%;
+    }
+    
+    h2 {
+        font-size: 170%;
+    }
+}
+
+@media screen and (max-width: 404px) {
+    .intro {
+        font-size: 200%;
+    }
+    #home {
+        font-size: 150%;
+        margin-right: 5vw;
+    }
+    
+    #slide {
+        font-size: 150%;
+        margin-left: 5vw;
+    }
+
+    #img5 {
+        width: 80vw;
+    }
+    h1 {
+        font-size: 230%;
+    }
+    
+    h2 {
+        font-size: 150%;
+    }
 }
